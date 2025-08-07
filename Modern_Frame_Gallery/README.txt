@@ -1,4 +1,4 @@
-Name: Himanshu Sharma
+Name: Yash
 Implemented Features:
 - Home, Gallery, About, Contact Pages
 - Fixed Header with Navigation
