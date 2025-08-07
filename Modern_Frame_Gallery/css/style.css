@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+.hero img {
+  width: 100%;
+  max-width: 400px;
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  padding: 5px;
+}
+.open-house {
+  animation: blink 3s infinite;
+  font-weight: bold;
+  color: green;
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  margin: 2em 0;
+}
+.gallery-item img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+table th, table td {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
